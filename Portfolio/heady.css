@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+* 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    transition: 0.6;
+    padding: 25px 100px;
+    z-index: 1;
+    text-shadow: 3px 3px 10px black;
+    
+    
+}
+
+header .navi {
+    position: relative;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 0.6;
+    transition: 0.6;
+    padding: 10px 10px 10px 10px;
+    text-shadow: 3px 3px rgb(100, 176, 199);
+    transition: 0.5s;
+}
+
+header .navi:hover {
+    color: rgba(100, 176, 199);
+    text-shadow:3px 3px rgb(0, 0, 0);;
+}
+
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6;
+    padding: 6px;
+    border-radius: 4rem ;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+header ul li a:hover {
+    background-color: rgb(100, 176, 199);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    
+}
